@@ -1,0 +1,25 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 03 Sep 2025 06:55:24 at http://ocalhost/restaurant/ http://localhost/restaurant/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://ocalhost/restaurant/ http://localhost/restaurant/ -O1 "C:\My Web Sites\LaTavola" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+06:55:24	Warning: 	Cache: damaged cache, trying to repair
+06:55:24	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+06:55:24	Warning: 	Cache: error trying to open the cache
+06:55:32	Error: 	"Unable to get server's address: No such host is known. " (-5) after 2 retries at link ocalhost/robots.txt (from primary/primary)
+06:55:32	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ocalhost/restaurant/ (from primary/primary)
+07:01:08	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ocalhost/restaurant/ (from primary/primary)
+07:10:56	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link ocalhost/restaurant/ (from primary/primary)
+07:11:05	Warning: 	Moved Permanently for localhost/restaurant/?p=7
+07:11:05	Warning: 	File has moved from localhost/restaurant/?p=7 to http://localhost/restaurant/menu/
+07:12:28	Warning: 	Moved Permanently for localhost/restaurant/?p=6
+07:12:28	Warning: 	File has moved from localhost/restaurant/?p=6 to http://localhost/restaurant/about-us/
+07:12:35	Warning: 	Moved Permanently for localhost/restaurant/?p=761
+07:12:35	Warning: 	File has moved from localhost/restaurant/?p=761 to http://localhost/restaurant/contact/
+07:13:26	Error: 	"Not Found" (404) at link localhost/restaurant/wp-content/plugins/wpforms-lite/assets/pro/images/times-solid-white.svg (from localhost/restaurant/wp-content/plugins/wpforms-lite/assets/css/frontend/classic/wpforms-base.min.css?ver=1.9.7.3)
+
+HTTrack Website Copier/3.49-2 mirror complete in 18 minutes 2 seconds : 179 links scanned, 170 files written (29309218 bytes overall) [29470450 bytes received at 27237 bytes/sec], 2.6 requests per connection
+(3 errors, 11 warnings, 0 messages)
